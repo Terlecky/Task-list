@@ -18,46 +18,67 @@ body {
     margin-top: 50px;
 }
 
-.section__addTask {
-
-}
-
 .section__addTask--text {
-    max-width: 800px;
+    max-width: 900px;
     margin-left: 50px;
     background-color: white;
-    border: 1px solid black;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     height: 50px;
-    margin-right: 50px
+    margin-right: 50px;
+    box-shadow: 0px 0px 3px 0px #000000;
 }
 
-.section__addTask--inputContainer {
+.section__tasksList--text {
+    max-width: 900px;
+    margin-left: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    margin-right: 50px;
     margin-top: 10px;
-    max-width: 800px;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.form {
+    margin-top: 1px;
+    max-width: 900px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: white;
-    border: 1px solid black;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0px 0px 3px 0px #000000;
 }
-
 .tasksInput {
-    display: flex;
-    flex-basis: 80%;
+    flex-basis: 85%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.section__addTask--button {
+
+
+.button {
     background-color: teal;
     color: white;
     border: none;
-    padding: 6px;
-    display: flex;
-    flex-shrink: 0;
+    padding: 10px;
 }
+
+.tasksList {
+    max-width: 900px;
+    margin-left: 50px;
+    background-color: white;
+    margin-right: 50px;
+    margin-top: 1px;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+
+

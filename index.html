@@ -16,21 +16,17 @@
 </head>
 
 <body>
-    <h1 class="header__title">Task list</h1>
-    <section class="section__addTask">
-        <div class="section__addTask--text">Add a new task</div>
-        <div class="section__addTask--inputContainer">
-            <p>
-            <form>
-                <label>
-                    <input class="tasksInput" type="text" autofocus placeholder="What tasks you've got to do?">
-                </label>
+    <h1 class="header__title">Task list</h1>  
+        <div class="section__addTask--text"><h2 class="text">Add a new task</h2></div>
+            <form class="form">
+                <input class="js-newTask" class="tasksInput" type="text" autofocus placeholder="What task do you have to do?">
+                <button class="button">Add task</button>
             </form>
-            </p>
-            <button class="section__addTask--button">Add task</button>
-        </div>
-    </section>
+        <div class="section__tasksList--text"><h2 class="text">Tasks list</h2></div>
 
+        <div class="tasksList">
+            <ul class="js-tasks">1</ul>
+        </div>
 </body>
 
 </html>
