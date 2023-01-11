@@ -32,20 +32,19 @@
     const init = () => {
         render();
         
-        const form = document.querySelector(".js-form")
+        const form = document.querySelector(".js-form");
 
-        form.addEventListener("submit", (event)=> {
+        form.addEventListener("submit", (event) => {
             event.preventDefault();
 
             const newTaskContent = document.querySelector(".js-newTask").value.trim();
-
-            if (newTaskContent === "")
-            return;
-            
-            tasks.push({
-                content: newTaskContent,
-            });
-
+            if (newTaskContent === "") {
+                return;
+            }
+                tasks.push({
+                    content: newTaskContent,
+                });
+            }
         })
     }
 
