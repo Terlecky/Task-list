@@ -8,6 +8,10 @@
             content: "zrobić pracę domową",
             done: false,
         },
+        {
+            content: "założyć majtki",
+            done: true,
+        },
     ];
 
     const render = () => {
@@ -15,7 +19,8 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li>
+            <li 
+            ${task.done ? "style=\"text-decoration: line-through\"" : ""}>
             ${task.content}
             </li>
             `;
@@ -26,6 +31,22 @@
 
     const init = () => {
         render();
+        
+        const form = document.querySelector(".js-form")
+
+        form.addEventListener("submit", (event)=> {
+            event.preventDefault();
+
+            const newTaskContent = document.querySelector(".js-newTask").value.trim();
+
+            if (newTaskContent === "")
+            return;
+            
+            tasks.push({
+                content: newTaskContent,
+            });
+
+        })
     }
 
     init();
