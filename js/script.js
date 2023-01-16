@@ -57,8 +57,8 @@
       htmlString += `
             <li 
             ${task.done ? 'style="text-decoration: line-through"' : ""}>
-            <button class="js-done">Zrobione</button>
-            <button class="js-remove">usuń</button>
+            <button class="js-done doneButton">✔</button>
+            <button class="js-remove removeButton">🗑</button>
             ${task.content}
             </li>
             `;
