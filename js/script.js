@@ -58,8 +58,8 @@
             <li class="addedList"
             ${task.done ? 'style="text-decoration: line-through"' : ""}>
             <button class="js-done doneButton">✔</button>
-            <button class="js-remove removeButton">🗑</button>
             ${task.content}
+            <button class="js-remove removeButton">🗑</button>
             </li>
             `;
     }
