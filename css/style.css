@@ -62,6 +62,9 @@ body {
 
 }
 
+ul {
+    padding: 5px;
+}
 .tasksInput {
     margin-left: 5px;
     margin-right: 5px;
@@ -106,6 +109,8 @@ body {
     padding: 12px;
     background-color: green;
     cursor: pointer;
+    color: green;
+    text-decoration: none;
 
 }
 
@@ -113,6 +118,7 @@ body {
     padding: 12px;
     background-color: red;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .addedList {
@@ -122,6 +128,7 @@ body {
     grid-gap: 20px;
     border-bottom: 1px solid rgb(227, 225, 225);
     justify-content: space-between;
+    text-decoration: none;
 }
 
 
