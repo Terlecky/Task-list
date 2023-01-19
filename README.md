@@ -6,7 +6,7 @@ terlecky.github.io/Task-list/
 
 ## Page previev
 
-![DemoGIF](https://i.postimg.cc/jqnLcdPZ/currency-exchange.gif)
+...
 
 ## Description
 This is simple to do list.
