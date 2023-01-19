@@ -59,12 +59,12 @@ body {
     align-items: center;
     grid-gap: 10px;
     box-shadow: 0px 0px 3px 0px #000000;
-
 }
 
 ul {
     padding: 5px;
 }
+
 .tasksInput {
     margin-left: 5px;
     margin-right: 5px;
@@ -78,7 +78,6 @@ ul {
     }
 }
 
-
 .button {
     background-color: teal;
     color: white;
@@ -87,7 +86,6 @@ ul {
     cursor: pointer;
     margin: 5px;
     word-break: keep-all;
-
 }
 
 .tasksList--containter {
@@ -97,28 +95,25 @@ ul {
     margin-right: 50px;
     margin-top: 1px;
     box-shadow: 0px 0px 3px 0px #000000;
-    
 }
 
 .button:hover {
-    background-color: rgba(0, 128, 128, 0.911)
+    background-color: rgba(0, 128, 128, 0.911);
 }
-
 
 .doneButton {
     padding: 12px;
     background-color: green;
     cursor: pointer;
-    color: green;
+    color: white;
     text-decoration: none;
-
+    width: 40px;
 }
 
 .removeButton {
     padding: 12px;
     background-color: red;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .addedList {
@@ -128,7 +123,4 @@ ul {
     grid-gap: 20px;
     border-bottom: 1px solid rgb(227, 225, 225);
     justify-content: space-between;
-    text-decoration: none;
 }
-
-

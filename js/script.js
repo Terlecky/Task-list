@@ -1,18 +1,5 @@
 {
-  const tasks = [
-    {
-      content: "zjeść śniadanie",
-      done: true,
-    },
-    {
-      content: "zrobić pracę domową",
-      done: false,
-    },
-    {
-      content: "założyć majtki",
-      done: true,
-    },
-  ];
+  const tasks = [];
 
   const removeTask = (taskIndex) => {
     tasks.splice(taskIndex, 1);
@@ -48,7 +35,7 @@
         toggleTaskDone(index);
       });
     });
-  }
+  };
 
   const render = () => {
     let htmlString = "";
@@ -56,9 +43,11 @@
     for (const task of tasks) {
       htmlString += `
             <li class="addedList"
-            ${task.done ? 'style="text-decoration: line-through"' : ""}>
+            ${task.done}>
             <button class="js-done doneButton">${task.done ? "✔" : ""}</button>
-            <span>${task.content}</span>
+            <span ${task.done ? 'style="text-decoration: line-through"' : ""}>${
+        task.content
+      }</span>
             <button class="js-remove removeButton">🗑</button>
             </li>
             `;
