@@ -1,4 +1,4 @@
-# Currency exchange
+# Task list
 
 ## Demo
 
@@ -9,7 +9,7 @@ terlecky.github.io/Task-list/
 ...
 
 ## Description
-This is simple to do list.
+This is simple task list.
 
 ## Technologies
 - HTML
